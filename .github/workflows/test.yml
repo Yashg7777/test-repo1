@@ -10,6 +10,7 @@ jobs:
         run: |
           echo "This is the old key: NEW_KEY"
 
+
       - name: Check Secure File
         run: |
           if [ -f src/main/resources/properties/securedev-files ]; then
